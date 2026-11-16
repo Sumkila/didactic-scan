@@ -129,18 +129,30 @@ fun DocumentDetailScreen(
         }
         Spacer(Modifier.height(24.dp))
 
-        Button(onClick = onOpen, modifier = Modifier.fillMaxWidth()) {
+        Button(
+            onClick = onOpen,
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 52.dp)
+        ) {
             Text(stringResource(R.string.open_action))
         }
         Spacer(Modifier.height(10.dp))
-        OutlinedButton(onClick = onShare, modifier = Modifier.fillMaxWidth()) {
+        OutlinedButton(
+            onClick = onShare,
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 52.dp)
+        ) {
             Text(stringResource(R.string.share_action))
         }
         Spacer(Modifier.height(10.dp))
         OutlinedButton(
             onClick = onRename,
             enabled = !isOperationInProgress,
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 52.dp)
         ) {
             Text(stringResource(R.string.rename_action))
         }
@@ -148,7 +160,9 @@ fun DocumentDetailScreen(
         OutlinedButton(
             onClick = onDelete,
             enabled = !isOperationInProgress,
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 52.dp)
         ) {
             Text(stringResource(R.string.delete_action))
         }

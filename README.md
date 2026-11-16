@@ -1,6 +1,6 @@
-# DocScanner
+# QuickScan
 
-DocScanner is a single-module Android document-scanner app built with Kotlin, Jetpack Compose, and Material 3. It scans documents with Google ML Kit Document Scanner, saves PDF output privately on the device, and can open or share saved PDFs.
+QuickScan, created by Sumkila, is a single-module Android document-scanner app built with Kotlin, Jetpack Compose, and Material 3. It scans documents with Google ML Kit Document Scanner, saves PDF output privately on the device, and can open or share saved PDFs.
 
 ## What works now
 
@@ -12,6 +12,8 @@ DocScanner is a single-module Android document-scanner app built with Kotlin, Je
 - Open a saved PDF in an installed external viewer.
 - Share a saved PDF through Android's Share Sheet.
 - Use sample documents in Compose previews and tests.
+
+The Home screen presents QuickScan with its Sumkila creator credit, a brief scan-flow introduction, an at-a-glance private-storage label, and one prominent scan action. Saved documents are grouped under **Your documents**.
 
 The detail preview remains a placeholder; opening the PDF uses an external app. The app does not implement OCR, JPEG storage, a custom camera, a PDF editor, cloud backup, or synchronization.
 

@@ -5,6 +5,8 @@ All notable project changes are recorded here.
 ## [Unreleased]
 
 ### Added
+- Added QuickScan branding, a scanner-inspired home header and guidance card, and visible Sumkila creator credit.
+- Removed the private-library badge to make room for QuickScan branding, and added a brighter gradient mark with teal and warm accent colors.
 - Added a single-module Kotlin/Compose Android app with Material 3 light/dark themes and Home-to-Detail navigation.
 - Added fictional sample documents, empty/loading/error states, and previews for the requested screens and dialogs.
 - Added initial simulated scan-and-name, rename, and confirmed-delete flows backed by temporary observable state; Open and Share began as placeholders.
@@ -26,4 +28,5 @@ All notable project changes are recorded here.
 - Added resource-backed scanner, import, open, and share errors, including safeguards against duplicate scan/save operations.
 
 ### Changed
+- Updated the launcher name and user-facing documentation to QuickScan, refined the color palette, and clarified saved-PDF actions on the detail screen.
 - Replaced the unavailable-scan, Open, and Share placeholders with ML Kit scanning and secure external PDF actions.

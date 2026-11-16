@@ -1,6 +1,6 @@
-# DocScanner User Guide
+# QuickScan User Guide
 
-DocScanner uses Google ML Kit Document Scanner to scan PDF documents and stores them locally. Each scan is limited to five pages; gallery import is disabled.
+QuickScan, created by Sumkila, uses Google ML Kit Document Scanner to scan PDF documents and stores them locally. Each scan is limited to five pages; gallery import is disabled.
 
 ## Open the app
 
@@ -8,15 +8,15 @@ Run the `app` configuration from Android Studio on an Android device with Google
 
 ## Browse documents
 
-Scroll the **My Documents** list. Tap a card to see its saved date, page count, and preview placeholder.
+Scroll the **Your documents** list. Tap a card to see its saved date, page count, and PDF actions.
 
 ## Scan and save
 
 1. Tap **Scan a document** and use the ML Kit scanner to capture and review up to five pages.
-2. When the scanner returns to DocScanner, enter a name and tap **Save**.
+2. When the scanner returns to QuickScan, enter a name and tap **Save**.
 3. Wait for the save to finish; the PDF is copied into private storage and appears in Home after Room observes the saved metadata.
 
-The first use may wait while Google Play services downloads the scanner UI and models. Network access may be needed for this setup; subsequent scanning runs on-device. The device must support Google Play services and have at least 1.7 GB total RAM. DocScanner does not request the CAMERA or broad storage permission for this scanner flow.
+The first use may wait while Google Play services downloads the scanner UI and models. Network access may be needed for this setup; subsequent scanning runs on-device. The device must support Google Play services and have at least 1.7 GB total RAM. QuickScan does not request the CAMERA or broad storage permission for this scanner flow.
 
 Canceling scanner capture or the naming dialog creates no saved document. A pending result can survive ordinary configuration changes while the app remains alive. If scan output is no longer readable or the process was killed before saving, scan again; an unfinished scan is not restored after process death. If scanning is unavailable or setup fails, check that Google Play services is installed and updated, connect to a network for first-use setup, then try again.
 
@@ -28,7 +28,7 @@ Tap **Delete** and confirm to delete the app-private PDF and its Room record. If
 
 ## Open and share
 
-Tap **Open** to open the saved PDF in an installed viewer. If no compatible viewer is installed, DocScanner displays an error; install a PDF viewer or use **Share** with an app that can read PDFs. If the saved file is missing, the document details are kept and an error is shown; scan the document again to create a new saved copy.
+Tap **Open** to open the saved PDF in an installed viewer. If no compatible viewer is installed, QuickScan displays an error; install a PDF viewer or use **Share** with an app that can read PDFs. If the saved file is missing, the document details are kept and an error is shown; scan the document again to create a new saved copy.
 
 Tap **Share** to open Android's Share Sheet. Choosing an app does not guarantee that the recipient completed delivery. Canceling the Share Sheet leaves the original PDF unchanged. Open and Share grant the external app temporary read access to a content URI, not a raw filesystem path.
 

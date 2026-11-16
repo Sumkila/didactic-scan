@@ -1,6 +1,6 @@
 # Physical-device testing with ADB
 
-This guide explains how to build DocScanner and install its debug app on a physical Android phone. An emulator is optional. ADB (Android Debug Bridge) is an Android development tool; it is not included in the app and does not add app permissions or dependencies.
+This guide explains how to build QuickScan and install its debug app on a physical Android phone. An emulator is optional. ADB (Android Debug Bridge) is an Android development tool; it is not included in the app and does not add app permissions or dependencies.
 
 ## 1. Install or locate Platform-Tools
 
@@ -106,7 +106,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 `-r` reinstalls or updates the app without requesting an uninstall. Room metadata and app-private PDF files normally remain during an update. Do not uninstall the app or clear data as part of these checks.
 
-After installation, unlock the phone and open **DocScanner** from the app drawer. This guide does not ask you to uninstall the app or clear its data. Do not do either without explicit permission.
+After installation, unlock the phone and open **QuickScan** from the app drawer. This guide does not ask you to uninstall the app or clear its data. Do not do either without explicit permission.
 
 ## Select one phone when multiple devices are connected
 

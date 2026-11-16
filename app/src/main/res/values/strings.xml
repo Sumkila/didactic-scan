@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">DocScanner</string>
-    <string name="home_title">My Documents</string>
-    <string name="prototype_badge">Private PDF library · stored on this device</string>
+    <string name="app_name">QuickScan</string>
+    <string name="home_title">Your documents</string>
+    <string name="app_creator">Made by Sumkila</string>
+    <string name="home_eyebrow">YOUR POCKET SCANNER</string>
+    <string name="home_hero_title">Paperwork,\nsimplified.</string>
+    <string name="home_hero_message">Turn paper into tidy PDFs, ready when you need them.</string>
     <string name="scan_action">Scan a document</string>
     <string name="empty_documents_title">No documents yet</string>
     <string name="empty_documents_message">Scan a document to save your first PDF on this device.</string>
@@ -43,8 +46,8 @@
     <string name="back_action">Back</string>
     <string name="back_home_action">Back to documents</string>
     <string name="document_metadata">%1$s · %2$d pages</string>
-    <string name="preview_placeholder_title">Preview placeholder</string>
-    <string name="preview_placeholder_message">No real PDF or scanned pages are available.</string>
+    <string name="preview_placeholder_title">Saved privately on this device</string>
+    <string name="preview_placeholder_message">Tap Open to view this PDF in your preferred reader.</string>
     <string name="open_action">Open</string>
     <string name="share_action">Share</string>
     <string name="rename_action">Rename</string>

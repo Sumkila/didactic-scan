@@ -347,4 +347,4 @@ private fun OperationFailure.toStringResource(): Int =
         OperationFailure.UNKNOWN_OPERATION -> R.string.document_operation_failed
     }
 
-private const val TAG = "DocScanner"
+private const val TAG = "QuickScan"
